@@ -2,6 +2,10 @@ body {
     position: relative;
 }
 
+.navbar {
+
+}
+
 .navbar-nav {
     margin:auto;
     padding: 20px;
@@ -19,15 +23,31 @@ body {
 }
 
 header#inicio{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../IMG/bg-main.jpg);
+    background-image: url(../../IMG/bg-main.jpg);
     height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    position: relative;
 }
 
-header.header-text {
-    color: red;
-    position: absolute;
+header#inicio {
+    background-image: url(../../IMG/bg-main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
+
+header#inicio div.inicio-text {
+    padding-top: 300px; 
+    padding-bottom: 300px;   
+    text-align: center;
+}
+
+div#equipa div.inicio-text {
+    padding-top: 50px; 
+    padding-bottom: 150px;   
+    text-align: center;
+}
+
