@@ -2,10 +2,6 @@ body {
     position: relative;
 }
 
-.navbar {
-
-}
-
 .navbar-nav {
     margin:auto;
     padding: 20px;
@@ -45,7 +41,7 @@ header#inicio div.inicio-text {
     text-align: center;
 }
 
-div#equipa div.inicio-text {
+section#equipa div.inicio-text {
     padding-top: 50px; 
     padding-bottom: 150px;   
     text-align: center;
