@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="CSS/Bootstrap Libraries/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="CSS/Core/main.css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         
         <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
             <div class="container">
@@ -21,28 +21,37 @@
                 <div class="collapse navbar-collapse" id="navbarToggler">
                    <ul class="navbar-nav">
                         <li>
-                            <a class="navbar-item" href="#">Equipa</a>
+                            <a class="navbar-item" href="#inicio">Inicio</a>
                         </li>
                         <li>
-                            <a class="navbar-item" href="#">Making-Off</a>
+                            <a class="navbar-item" href="#equipa">Equipa</a>
                         </li>
                         <li>
-                            <a class="navbar-item" href="#">Marketing</a>
+                            <a class="navbar-item" href="#making">Making-Off</a>
                         </li>
                         <li>
-                            <a class="navbar-item" href="#">Redes Sociais</a>
+                            <a class="navbar-item" href="#marketing">Marketing</a>
                         </li>
                         <li>
-                            <a class="navbar-item" href="#">Filme</a>
+                            <a class="navbar-item" href="#redes">Redes Sociais</a>
                         </li>
                         <li>
-                            <a class="navbar-item" href="#">Votacao</a>
+                            <a class="navbar-item" href="#filme">Filme</a>
+                        </li>
+                        <li>
+                            <a class="navbar-item" href="#votacao">Votacao</a>
                         </li>
                    </ul> 
                 </div>
             </div>
-
         </nav>
+
+        <header id="inicio" class="container-fluid">
+            <div class="header-text container">
+                <h1>Sonhos!</h1>
+                <p>Vamos Concretizá-los!</p>
+            </div>
+        </header>
 
         <script src="JS/Core/jquery-3.3.1.min.js"></script>
         <script src="JS/Core/popper.min.js"></script>

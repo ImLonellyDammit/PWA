@@ -13,3 +13,21 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+.navbar-nav li .navbar-item:hover {
+    color: #c2d6d6;
+}
+
+header#inicio{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../IMG/bg-main.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header.header-text {
+    color: red;
+    position: absolute;
+}
