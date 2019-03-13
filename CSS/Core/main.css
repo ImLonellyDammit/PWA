@@ -1,0 +1,15 @@
+body {
+    position: relative;
+}
+
+.navbar-nav {
+    margin:auto;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-nav li .navbar-item {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
