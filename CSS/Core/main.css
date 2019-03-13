@@ -1,6 +1,28 @@
+/* Geral */
 body {
     position: relative;
 }
+
+/*Otmização Menu*/
+@media (max-width: 767px)
+{
+    .navbar {
+        background-color: #000;
+    }
+
+    a.navbar-brand{
+        margin:auto;
+    }
+}
+
+@media (max-width: 992px) 
+{
+    .container {
+        font-size: 14px;
+    }
+}
+
+/* Nav*/
 
 .navbar-nav {
     margin:auto;
@@ -18,14 +40,7 @@ body {
     color: #c2d6d6;
 }
 
-header#inicio{
-    background-image: url(../../IMG/bg-main.jpg);
-    height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
+/* Header */
 
 header#inicio {
     background-image: url(../../IMG/bg-main.jpg);
@@ -36,10 +51,12 @@ header#inicio {
 }
 
 header#inicio div.inicio-text {
-    padding-top: 300px; 
-    padding-bottom: 300px;   
+    padding-top: 450px; 
+    padding-bottom: 450px;   
     text-align: center;
 }
+
+/* Sections */
 
 section#equipa div.inicio-text {
     padding-top: 50px; 
