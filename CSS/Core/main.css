@@ -28,6 +28,7 @@ body {
     margin:auto;
     padding: 20px;
     font-family: 'Raleway', sans-serif;
+    transition: padding 0.3s linear 0.3s;
 }
 
 .navbar-nav li .navbar-item {

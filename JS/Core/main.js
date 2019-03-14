@@ -19,15 +19,16 @@ $(window).resize(function() {
 $(window).scroll(() => {
     let scroll = $(window).scrollTop();
     if (scroll == 0)
-        $('.navbar-nav').animate({padding:"20px"},500,"swing");
-    else
-    {
+        $('.navbar-nav').css("padding","20");
+    
         if (scroll >= 200)
         {
             $('.navbar').css("background-image","linear-gradient(to bottom right,transparent,black)");
-            $('.navbar-nav').animate({padding:"10px"},500);
+            $('.navbar-nav').css("padding","10");
         }
         else
+        {
             $('.navbar').css("background-image","none");
-    }
+        }
+
 });
