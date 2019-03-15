@@ -73,3 +73,6 @@ section#equipa div.inicio-text {
     text-align: center;
 }
 
+section#equipa div.inicio-text h1{
+    padding-bottom: 50px;
+}

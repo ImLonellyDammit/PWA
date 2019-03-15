@@ -18,17 +18,16 @@ $(window).resize(function() {
 
 $(window).scroll(() => {
     let scroll = $(window).scrollTop();
-    if (scroll == 0)
+   
+    if (scroll >= 200)
+    {
+        $('.navbar').css("background-image","linear-gradient(to bottom right,transparent,black)");
+        $('.navbar-nav').css("padding","10");
+    }
+    else
+    {
+        $('.navbar').css("background-image","none");
         $('.navbar-nav').css("padding","20");
-    
-        if (scroll >= 200)
-        {
-            $('.navbar').css("background-image","linear-gradient(to bottom right,transparent,black)");
-            $('.navbar-nav').css("padding","10");
-        }
-        else
-        {
-            $('.navbar').css("background-image","none");
-        }
+    }
 
 });
