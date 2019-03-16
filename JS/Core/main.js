@@ -31,3 +31,15 @@ $(window).scroll(() => {
     }
 
 });
+
+// Image Gif - Equipas
+
+$('img.card-gif').hover(
+    function() {
+        $(this).attr("src","IMG/cris2.gif");
+    },
+    function() {
+        $(this).attr("src","IMG/cris-static.jpg");
+    }
+);
+
