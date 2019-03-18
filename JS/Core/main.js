@@ -32,7 +32,7 @@ $(window).scroll(() => {
 
 });
 
-// Image Gif - Equipas
+// Image GIF - Equipas
 
 $('img.card-gif').hover(
     function() {
@@ -46,11 +46,6 @@ $('img.card-gif').hover(
         $(this).attr("src", name[name.length-2] + ".jpg");
     }
 );
-
-/*function MudarFoto(srcimg, id){
-    document.getElementById(id).src = srcimg;
-}*/
-
 
 
 
