@@ -36,10 +36,22 @@ $(window).scroll(() => {
 
 $('img.card-gif').hover(
     function() {
-        $(this).attr("src","IMG/alexandre.gif");
+        let sfile = $(this).attr("src");
+        let name = sfile.split(".");
+        $(this).attr("src", name[name.length-2] + ".gif");
     },
     function() {
-        $(this).attr("src","IMG/alexandre.jpg");
+        let sfile = $(this).attr("src");
+        let name = sfile.split(".");
+        $(this).attr("src", name[name.length-2] + ".jpg");
     }
 );
+
+/*function MudarFoto(srcimg, id){
+    document.getElementById(id).src = srcimg;
+}*/
+
+
+
+
 
