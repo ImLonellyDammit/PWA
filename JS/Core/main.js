@@ -36,10 +36,10 @@ $(window).scroll(() => {
 
 $('img.card-gif').hover(
     function() {
-        $(this).attr("src","IMG/cris2.gif");
+        $(this).attr("src","IMG/alexandre.gif");
     },
     function() {
-        $(this).attr("src","IMG/cris-static.jpg");
+        $(this).attr("src","IMG/alexandre.jpg");
     }
 );
 

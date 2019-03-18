@@ -77,3 +77,7 @@ section#equipa div.inicio-text {
 section#equipa div.inicio-text h1{
     padding-bottom: 50px;
 }
+
+section#equipa div.inicio-text.container.text-dark div.card {
+    padding: 10px;
+}
