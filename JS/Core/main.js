@@ -50,3 +50,4 @@ $('img.card-gif').hover(
 
 
 
+

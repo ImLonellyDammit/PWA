@@ -1,6 +1,7 @@
 /* Geral */
 body {
     position: relative;
+    font-family:'Raleway', sans-serif;
 }
 
 /*Otmização Menu*/
@@ -27,7 +28,6 @@ body {
 .navbar-nav {
     margin:auto;
     padding: 20px;
-    font-family: 'Raleway', sans-serif;
     transition: padding 0.3s linear 0.3s;
 }
 
@@ -79,5 +79,7 @@ section#equipa div.inicio-text h1{
 }
 
 section#equipa div.inicio-text.container.text-dark div.card {
-    padding: 10px;
+    padding: 20px;
 }
+
+
