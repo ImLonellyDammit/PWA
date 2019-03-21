@@ -128,3 +128,18 @@ section#making div div.row {
     padding-top: 50px;
 }
 
+section#making div div.row div{
+    margin-right: 2%;
+}
+
+/* Marketing */
+
+section#marketing div.inicio-text {
+    padding-top: 50px; 
+    padding-bottom: 150px;   
+    text-align: center;
+}
+
+section#marketing div div.row {
+    padding-top: 50px;
+}
