@@ -29,8 +29,8 @@ $(window).scroll(() => {
         $('.navbar').css("background-image","none");
         $('.navbar-nav').css("padding","20");
     }
-
 });
+
 
 // Image GIF - Equipas
 
