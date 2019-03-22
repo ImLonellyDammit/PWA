@@ -191,3 +191,15 @@ section#redes div div.row {
         margin: auto;
     }
 }
+
+/* Filme */
+
+section#filme div.inicio-text {
+    padding-top: 50px; 
+    padding-bottom: 150px;   
+    text-align: center;
+}
+
+section#filme div div.row {
+    padding-top: 5%;
+}
