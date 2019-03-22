@@ -9,6 +9,7 @@ body {
 {
     .navbar {
         background-color: #000;
+        padding-left: 0;
     }
 
     a.navbar-brand{
