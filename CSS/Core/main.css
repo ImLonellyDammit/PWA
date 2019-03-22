@@ -60,7 +60,7 @@ header#inicio div.inicio-text {
 
 @media (max-width: 490px)
 {
-    div.inicio-text {
+    header#inicio div.inicio-text {
         font-size: 10px;
     }
 }
@@ -125,12 +125,18 @@ section#making div.inicio-text {
 }
 
 section#making div div.row {
-    padding-top: 50px;
+    padding-top: 5%;
 }
 
 section#making div div.row div{
     margin-right: 2%;
 }
+
+@media (max-width: 767px)
+{  
+
+}
+
 
 /* Marketing */
 
@@ -141,5 +147,49 @@ section#marketing div.inicio-text {
 }
 
 section#marketing div div.row {
-    padding-top: 50px;
+    padding-top: 5%;
+}
+
+@media (max-width: 767px)
+{  
+    section#marketing div div.row img {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
+
+
+/* Redes Sociais */
+
+section#redes {
+    background-image: url(../../IMG/bg-redes.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+section#redes div.inicio-text {
+    padding-top: 50px; 
+    padding-bottom: 150px;   
+    text-align: center;
+}
+
+section#redes div div.row {
+    padding-top: 5%;
+}
+
+section#redes div h1{
+    color: white;
+}
+
+@media (max-width: 767px)
+{  
+    section#redes div div.row img {
+        padding-bottom: 2%;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
 }

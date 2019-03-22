@@ -18,8 +18,8 @@ $(window).resize(function() {
 
 $(window).scroll(() => {
     let scroll = $(window).scrollTop();
-   
-    if (scroll >= 200)
+    let wwidth = $(window).width();
+    if (scroll >= 200 && wwidth > 767)
     {
         $('.navbar').css("background-image","linear-gradient(to bottom right,transparent,black)");
         $('.navbar-nav').css("padding","10");
