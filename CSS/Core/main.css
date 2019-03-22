@@ -154,6 +154,7 @@ section#marketing div div.row {
 @media (max-width: 767px)
 {  
     section#marketing div div.row img {
+        padding-bottom: 2%;
         width: 90%;
         height: 90%;
         margin: auto;
@@ -181,14 +182,10 @@ section#redes div div.row {
     padding-top: 5%;
 }
 
-section#redes div h1{
-    color: white;
-}
-
 @media (max-width: 767px)
 {  
     section#redes div div.row img {
-        padding-bottom: 2%;
+        padding-bottom: 3%;
         width: 90%;
         height: 90%;
         margin: auto;
