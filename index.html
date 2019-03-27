@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="CSS/Core/normalize.css">
         <link rel="stylesheet" type="text/css" href="CSS/Bootstrap Libraries/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="CSS/Core/mediaelementplayer.css">
         <link rel="stylesheet" type="text/css" href="CSS/Core/main.css">
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="1">
@@ -379,10 +380,10 @@
             <div class="container-fluid inicio-text">
                 <h1>Filme</h1>
                 <div class="row justify-content-md-center">
-                    <video class="col-md-9" controls style="padding:0;">
+                    <video class="col-md-9" controls="controls" style="padding:0;" preload="auto">
                         <source src="Media/teste.mp4" type="video/mp4">
                     </video>
-                </div>
+                </div>            
             </div>
         </section>
 
@@ -432,7 +433,11 @@
         <script src="JS/Core/jquery-3.3.1.min.js"></script>
         <script src="JS/Core/popper.min.js"></script>
         <script src="JS/Bootstrap Libraries/bootstrap.bundle.min.js"></script>
+        <script src="JS/build/mediaelement-and-player.min.js"></script>
         <script src="JS/Core/main.js"></script>
 
+        <script>
+            $(document).ready(function(){$('video, audio').mediaelementplayer();});
+        </script>
     </body>
 </html>
