@@ -195,14 +195,14 @@ section#redes div div.row {
 /* Filme */
 
 section#filme div.inicio-text {
-    /*padding-top: 5%; 
-    padding-bottom: 5%; */ 
+    padding-top: 5%; 
+    padding-bottom: 5%;
     text-align: center;
 }
 
-/*section#filme div div.row {
+section#filme div div.row {
     padding-top: 5%;
-}*/
+}
 
 /* Footer */
 
