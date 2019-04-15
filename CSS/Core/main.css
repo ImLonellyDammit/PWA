@@ -71,9 +71,7 @@ header#inicio div.inicio-text {
 
 /* Equipa */
 
-div#equipa div.inicio-text {
-    padding-top: 5%;
-    padding-bottom: 5%;   
+div#equipa div.inicio-text {  
     text-align: center;
 }
 
@@ -120,35 +118,17 @@ section#making {
 }
 
 section#making div.inicio-text {
-    padding-top: 5%; 
-    padding-bottom: 5%; 
     text-align: center;
-}
-
-section#making div div.row {
-    padding-top: 5%;
 }
 
 section#making div div.row div{
     margin-right: 2%;
 }
 
-@media (max-width: 767px)
-{  
-
-}
-
-
 /* Marketing */
 
 section#marketing div.inicio-text {
-    padding-top: 5%;
-    padding-bottom: 5%;  
     text-align: center;
-}
-
-section#marketing div div.row {
-    padding-top: 5%;
 }
 
 @media (max-width: 767px)
@@ -172,14 +152,8 @@ section#redes {
     height: 100%;
 }
 
-section#redes div.inicio-text {
-    padding-top: 5%; 
-    padding-bottom: 5%;  
+section#redes div.inicio-text { 
     text-align: center;
-}
-
-section#redes div div.row {
-    padding-top: 5%;
 }
 
 @media (max-width: 767px)
@@ -194,15 +168,7 @@ section#redes div div.row {
 
 /* Filme */
 
-section#filme div.inicio-text {
-    padding-top: 5%; 
-    padding-bottom: 5%;
-    text-align: center;
-}
-
-section#filme div div.row {
-    padding-top: 5%;
-}
+section#filme div.inicio-text {text-align: center;}
 
 /* Footer */
 
