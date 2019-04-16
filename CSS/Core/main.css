@@ -46,7 +46,7 @@ body {
 /* Header */
 
 header#inicio {
-    background-image: url(../../IMG/BGImages/bg-main.jpg);
+    background-image: url(../../IMG/BGImages/bg_seixal.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,8 +65,6 @@ header#inicio div.inicio-text {
         font-size: 10px;
     }
 }
-
-
 
 
 /* Equipa */
@@ -166,4 +164,43 @@ section#redes {
         font-size: 10px;
     }
 
+}
+
+/* Voting.php Styling */
+
+#video-container {
+    position: relative;
+
+}
+
+#ending-container {
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.95);
+    transition: display 0.3s;
+    z-index: 1000;
+    display: none;
+}
+
+#labels-container {
+    text-align: center;
+    position: relative;
+    top: 15%;
+    color: #fff;
+}
+
+form {
+    position: relative;
+    text-align: center;
+    top: 25%;
+    color: #fff;
+}
+
+#opt1,#opt2,#btn {
+    font-size: 2vw;
+    box-shadow: 1px 1px 30px 10px #fff;
 }
