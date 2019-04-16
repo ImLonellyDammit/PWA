@@ -146,17 +146,7 @@ section#redes {
     }
 }
 
-/* Filme */
-
-section#filme div.inicio-text {text-align: center;}
-
 /* Footer */
-
-footer {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
 
 @media (max-width: 767px)
 {
