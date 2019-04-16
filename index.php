@@ -261,9 +261,9 @@
                         <div id="labels-container">
                         </div>
                         <form method="post" id="ajax-form" action="PHP/choice.php">
-                            <label name="opt1" id="opt1" class="bg-success rounded p-5">0</label>
-                            <button type="submit" id="btn" class="btn btn-primary p-5">ENCERRAR VOTACAO</button>
-                            <label name="opt2" id="opt2" class="bg-success rounded p-5">0</label>     
+                            <label name="opt1" id="opt1" class="bg-success rounded p-5 h3">0</label>
+                            <button type="submit" id="btn" class="btn btn-primary p-5 h2">ENCERRAR VOTACAO</button>
+                            <label name="opt2" id="opt2" class="bg-success rounded p-5 h3">0</label>     
                         </form>
                     </div>
                 </div>            

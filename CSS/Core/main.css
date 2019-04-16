@@ -201,6 +201,6 @@ form {
 }
 
 #opt1,#opt2,#btn {
-    font-size: 2vw;
-    box-shadow: 1px 1px 30px 10px #fff;
+    /*font-size: 2vw;*/
+    box-shadow: 1px 1px 30px 5px #fff;
 }
