@@ -262,9 +262,9 @@
                         </div>
                         <form method="post" id="ajax-form" class="d-inline-block" action="PHP/choice.php">
                             <div class="d-flex">
-                                <label name="opt1" id="opt1" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0</label>
+                                <label name="opt1" id="opt1" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0%</label>
                                 <button type="submit" id="btn" class="btn btn-primary" style="font-size:2vw;padding:2vw;"> ENCERRAR VOTACAO</button>
-                                <label name="opt2" id="opt2" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0</label> 
+                                <label name="opt2" id="opt2" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0%</label> 
                             </div>    
                         </form>
                     </div>

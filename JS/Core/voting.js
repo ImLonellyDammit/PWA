@@ -9,6 +9,7 @@ $(document).ready(function(){
     // Variables related to voting.php
     let votingButton = $("#voting-btn");
     let contentContainer = $("#content-container");
+    let sourceSave;
    
     // When we close the votes
     $(form).submit(function(){
@@ -44,71 +45,76 @@ $(document).ready(function(){
 
     // When the video ends
     $(Video).on('ended',function(){
-        $(endContainer).css("display","block");
-        $(Video).attr("controls","none");
 
-        let result1;
-        let result2;
-        let result3;
-        let result4;
-        $.when(
-            // Question Load
-            $.ajax({
-                type:'POST',
-                url: "PHP/questions.php",
-                data: {aSource:$("#video source").attr("src")} 
-            })
-            .done(function(response){
-                result1 = response;
-            }),
-    
-            // Video Status Insertion
-            $.ajax({
-                type:'POST',
-                url: "PHP/votingsettings.php",
-                data: {aSource:$("#video source").attr("src")}
-            })
-            .done(function(response){
-                result2 = response;
-            }),
-            
-            // Question: Option Count retrieve - OP1
-            // Executes the needed queries for the first option every 2 seconds 
-            setInterval(function(){
+        let source = $("#video source").attr("src");       
+        if(source != "Media/v2.mp4") // Condição que exclui os videos finais
+        {
+        
+            $(endContainer).css("display","block");
+            $(Video).attr("controls","none");
+
+            let result1;
+            let result2;
+            let result3;
+            let result4;
+            $.when(
+                // Question Load
                 $.ajax({
-                    type: 'POST',
-                    url: "PHP/votingretrieve.php"
+                    type:'POST',
+                    url: "PHP/questions.php",
+                    data: {aSource:$("#video source").attr("src")} 
                 })
                 .done(function(response){
-                    result3 = response;
-                })
-            },2000),
-
-            // Question: Option Count retrieve - OP2
-            // Executes the needed queries for the second option every 2 seconds 
-            setInterval(function(){
+                    result1 = response;
+                }),
+        
+                // Video Status Insertion
                 $.ajax({
-                    type: 'POST',
-                    url: "PHP/votingretrieve2.php"
+                    type:'POST',
+                    url: "PHP/votingsettings.php",
+                    data: {aSource:$("#video source").attr("src")}
                 })
                 .done(function(response){
-                    result4 = response;
-                })
-            },2000)
+                    result2 = response;
+                }),
+                
+                // Question: Option Count retrieve - OP1
+                // Executes the needed queries for the first option every 2 seconds 
+                setInterval(function(){
+                    $.ajax({
+                        type: 'POST',
+                        url: "PHP/votingretrieve.php"
+                    })
+                    .done(function(response){
+                        result3 = response;
+                    })
+                },2000),
 
-        ).then(function(){
-            $("#labels-container").html(result1);
-            // Updates the value of both options every 2 seconds  
-            setInterval(function(){$('#opt1').text(result3);$('#opt2').text(result4);},2000);
-        });
-   
+                // Question: Option Count retrieve - OP2
+                // Executes the needed queries for the second option every 2 seconds 
+                setInterval(function(){
+                    $.ajax({
+                        type: 'POST',
+                        url: "PHP/votingretrieve2.php"
+                    })
+                    .done(function(response){
+                        result4 = response;
+                    })
+                },2000)
+
+            ).then(function(){
+                $("#labels-container").html(result1);
+                // Updates the value of both options every 2 seconds  
+                setInterval(function(){$('#opt1').text(result3 + "%");$('#opt2').text(result4 + "%");},2000);
+            });
+        }
     });
 
     // Voting Content -> voting.php - APP PWA
     $(votingButton).click(function(){
         $.ajax({
             type:'GET',
-            url:"PHP/votingcheck.php",
+            url:"PHP/votingcheck.php"
         })
         .done(function(response){
             // Avoid p from being repeated

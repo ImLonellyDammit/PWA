@@ -2,6 +2,7 @@
 
 include "dbconn.php";
 
+
 // Verifies if there's any line there... 
 $lineCheck = $conn->query("SELECT * FROM vidstatus");
 // Retrieves the question info for the current video 
