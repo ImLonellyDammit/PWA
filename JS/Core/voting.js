@@ -133,7 +133,7 @@ $(document).ready(function(){
                         $(contentContainer).append(data);
                     }); 
                     // Main Page Redirect
-                    setTimeout(function(){$('body').load("PHP/voting.php");},2000);
+                    setTimeout(function(){$('body').load("voting.php");},2000);
                 });         
             });
         });

@@ -260,10 +260,12 @@
                     <div id="ending-container">
                         <div id="labels-container">
                         </div>
-                        <form method="post" id="ajax-form" action="PHP/choice.php">
-                            <label name="opt1" id="opt1" class="bg-success rounded p-5 h3">0</label>
-                            <button type="submit" id="btn" class="btn btn-primary p-5 h2">ENCERRAR VOTACAO</button>
-                            <label name="opt2" id="opt2" class="bg-success rounded p-5 h3">0</label>     
+                        <form method="post" id="ajax-form" class="d-inline-block" action="PHP/choice.php">
+                            <div class="d-flex">
+                                <label name="opt1" id="opt1" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0</label>
+                                <button type="submit" id="btn" class="btn btn-primary" style="font-size:2vw;padding:2vw;"> ENCERRAR VOTACAO</button>
+                                <label name="opt2" id="opt2" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0</label> 
+                            </div>    
                         </form>
                     </div>
                 </div>            
