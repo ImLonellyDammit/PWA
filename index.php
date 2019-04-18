@@ -11,7 +11,7 @@
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="1">
         
-        <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top border border-white border-left-0 border-right-0 border-top-0">
             <div class="container">
                 <a class="navbar-brand" href="#">Reacao<!--<img src="IMG/icons/icon-152x152-f.png" class="img-fluid">--></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -289,6 +289,20 @@
                         </a>
                     </li>
                 </ul>
+
+                
+                <h5>Externos:</h5>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-2 col-md-12 mb-4">
+                        <img src="IMG/Logos Oficiais/bispo_500-250px.png" class="img-fluid">                      
+                    </div>
+                    <div class="col-lg-2 col-md-12 mb-4">
+                        <img src="IMG/Logos Oficiais/cppme 500-250px.png" class="img-fluid">                      
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4">
+                        <img src="IMG/Logos Oficiais/villa_500.png" class="img-fluid">
+                    </div>
+                </div>
 
                 <h5>Com apoio</h5>
                 <div class="row align-items-center justify-content-between">
