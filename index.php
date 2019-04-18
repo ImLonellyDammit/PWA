@@ -319,6 +319,13 @@
                         <img src="IMG/Logos Oficiais/logo-ue-2.png" class="img-fluid">
                     </div>
                 </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-xs-12">
+                        <img src="IMG/Logos Oficiais/logo-iefp.png" class="img-fluid">                      
+                    </div>
+                </div>
+
             </div>
 
             <div class="text-center py-3">Todos os direitos reservados - © 2019 Copyright:
