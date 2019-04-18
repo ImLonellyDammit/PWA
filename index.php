@@ -3,8 +3,6 @@
     <head>
         <title>Reacao - O Filme</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="icon" href="IMG/icons/icon-144x144.png" sizes="114x114">
-        <link rel="manifest" href="manifest.json">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="CSS/Core/normalize.css">
         <link rel="stylesheet" type="text/css" href="CSS/Bootstrap Libraries/bootstrap.min.css">

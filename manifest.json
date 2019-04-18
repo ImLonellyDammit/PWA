@@ -1,13 +1,13 @@
 {
   "lang": "pt-PT",
-  "name": "Votação ",
+  "name": "Votação",
   "short_name": "VT",
   "theme_color": "#ffffff",
   "background_color": "#668cff",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
-  "start_url": "/",
+  "start_url": "voting.php",
   "icons": [
     {
       "src": "IMG/icons/icon-72x72.png",

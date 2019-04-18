@@ -47,6 +47,3 @@ $('img.card-gif').hover(
     }
 );
 
-
-
-
