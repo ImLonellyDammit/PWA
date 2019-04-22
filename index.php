@@ -293,29 +293,29 @@
                 
                 <h5>Parceiros Externos:</h5>
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-2 col-md-12 mb-4">
+                    <div class="col-lg-2 col-md-2 mb-4">
                         <img src="IMG/Logos Oficiais/bispo_500-250px.png" class="img-fluid">                      
                     </div>
-                    <div class="col-lg-2 col-md-12 mb-4">
+                    <div class="col-lg-2 col-md-2 mb-4">
                         <img src="IMG/Logos Oficiais/cppme 500-250px.png" class="img-fluid">                      
                     </div>
-                    <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="col-lg-2 col-md-2 mb-4">
                         <img src="IMG/Logos Oficiais/villa_500.png" class="img-fluid">
                     </div>
                 </div>
 
                 <h5>Apoio:</h5>
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-2 col-md-12 mb-4">
+                    <div class="col-lg-2 col-md-2 mb-4">
                         <img src="IMG/Logos Oficiais/logo-republica-hd(500x250px).png" class="img-fluid">                      
                     </div>
-                    <div class="col-lg-2 col-md-12 mb-4">
+                    <div class="col-lg-2 col-md-2 mb-4">
                         <img src="IMG/Logos Oficiais/Lisboa2020_RGB_2.png" class="img-fluid">                      
                     </div>
-                    <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="col-lg-2 col-md-2 mb-4">
                         <img src="IMG/Logos Oficiais/Logo_Portugal_2020_Cores_2.png" class="img-fluid">
                     </div>
-                    <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="col-lg-2 col-md-2 mb-4">
                         <img src="IMG/Logos Oficiais/logo-ue-2.png" class="img-fluid">
                     </div>
                 </div>
@@ -323,7 +323,7 @@
                 <br>
                 <h5>Patrocinado:</h5>
                 <div class="row">
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-lg-3 col-md-2">
                         <img src="IMG/Logos Oficiais/Logo_IEFP.png" class="img-fluid">                      
                     </div>
                 </div>
