@@ -183,7 +183,7 @@ section#redes {
     background-color: rgba(0,0,0,0.95);
     transition: display 0.3s;
     z-index: 1000;
-    display: none;
+    display:none;
 }
 
 #labels-container {
@@ -201,6 +201,7 @@ form {
 }
 
 #opt1,#opt2,#btn {
-    /*font-size: 2vw;*/
-    box-shadow: 1px 1px 30px 5px #fff;
+    box-shadow: 1px 1px 40px rgba(108,203,223,0.75);
 }
+
+

@@ -261,7 +261,7 @@
                         <form method="post" id="ajax-form" class="d-inline-block" action="PHP/choice.php">
                             <div class="d-flex">
                                 <label name="opt1" id="opt1" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0%</label>
-                                <button type="submit" id="btn" class="btn btn-primary" style="font-size:2vw;padding:2vw;"> ENCERRAR VOTACAO</button>
+                                <button type="submit" id="btn" class="btn btn-primary ml-2 mr-2" style="font-size:2vw;padding:2vw;margin-bottom:7px;"> ENCERRAR VOTACAO</button>
                                 <label name="opt2" id="opt2" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0%</label> 
                             </div>    
                         </form>
@@ -291,7 +291,7 @@
                 </ul>
 
                 
-                <h5>Externos:</h5>
+                <h5>Parceiros Externos:</h5>
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-2 col-md-12 mb-4">
                         <img src="IMG/Logos Oficiais/bispo_500-250px.png" class="img-fluid">                      
@@ -304,7 +304,7 @@
                     </div>
                 </div>
 
-                <h5>Com apoio</h5>
+                <h5>Apoio:</h5>
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-2 col-md-12 mb-4">
                         <img src="IMG/Logos Oficiais/logo-republica-hd(500x250px).png" class="img-fluid">                      
@@ -320,9 +320,11 @@
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <br>
+                <h5>Patrocinado:</h5>
+                <div class="row">
                     <div class="col-md-3 col-xs-12">
-                        <img src="IMG/Logos Oficiais/logo-iefp.png" class="img-fluid">                      
+                        <img src="IMG/Logos Oficiais/Logo_IEFP.png" class="img-fluid">                      
                     </div>
                 </div>
 
