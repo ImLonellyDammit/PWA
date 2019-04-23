@@ -13,7 +13,7 @@
         
         <nav class="navbar navbar-dark navbar-expand-md fixed-top border border-white border-left-0 border-right-0 border-top-0">
             <div class="container">
-                <a class="navbar-brand" href="#">Reacao<!--<img src="IMG/icons/icon-152x152-f.png" class="img-fluid">--></a>
+                <a class="navbar-brand" href="#"><img src="IMG/icons/logo_reacao.svg" width="40" height="40" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,9 +44,8 @@
 
         <!--Header/Página: Inicio-->
         <header id="inicio" class="container-fluid">
-            <div class="inicio-text container text-white">
-                <h1>Bem-Vindo</h1>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <div class="inicio container text-info">
+                <!--<h1 class="text-center">Bem-Vindo</h1>-->
             </div>
         </header>
 
@@ -241,9 +240,9 @@
             <div class="pb-5 pt-5 text-center container-fluid text-white">
                 <h1 class="pb-5">Redes Sociais</h1>  
                 <div class="pb-5 pt-5 row justify-content-md-center">
-                    <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-4" alt="Responsive image">
-                    <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-4" alt="Responsive image">
-                    <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-4" alt="Responsive image">
+                    <img src="IMG/Outros/face.jpeg" class="img-fluid rounded col-md-3" alt="Responsive image">
+                    <img src="IMG/Outros/insta.jpeg" class="img-fluid rounded col-md-3" alt="Responsive image">
+                    <img src="IMG/Outros/yout.jpeg" class="img-fluid rounded col-md-3" alt="Responsive image">
                 </div>
             </div>
         </section>

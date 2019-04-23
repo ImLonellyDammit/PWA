@@ -46,26 +46,26 @@ body {
 /* Header */
 
 header#inicio {
-    background-image: url(../../IMG/BGImages/bg-site.png);
+    background-image: url(../../IMG/BGImages/bg-ego.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
-header#inicio div.inicio-text {
-    padding-top: 25%; 
-    padding-bottom: 25%;   
-    text-align: center;
+header#inicio div.inicio {
+    padding-top: 30%; 
+    padding-bottom: 30%;  
 }
 
+/*
 @media (max-width: 490px)
 {
-    header#inicio div.inicio-text {
+    header#inicio div.inicio {
         font-size: 10px;
     }
 }
-
+*/
 
 /* Equipa */
 
@@ -104,7 +104,7 @@ section#equipa div.container.text-dark div.card {
 /* Making  */
 
 section#making {
-    background-image: url(../../IMG/BGImages/bg-marketing.jpg);
+    background-image: url(../../IMG/BGImages/bg-making.JPG);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@ section#making {
 /* Redes Sociais */
 
 section#redes {
-    background-image: url(../../IMG/BGImages/bg-redes.jpg);
+    background-image: url(../../IMG/BGImages/bg-redes.JPG);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
