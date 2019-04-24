@@ -3,7 +3,7 @@
 include "dbconn.php";
 
 $clickedBtn = $_POST['clickedBtn']; // Text attached to the clicked button
-$videoCorresp = $conn->query("SELECT * FROM video INNER JOIN vidstatus ON video.path = vidstatus.video_actual "); // Needed query to obtain current Cod Video
+$videoCorresp = $conn->query("SELECT * FROM video INNER JOIN vidstatus ON video.path = vidstatus.video_actual"); // Needed query to obtain current Cod Video
 
 
 if($videoCorresp->num_rows == 1)
@@ -37,15 +37,13 @@ if($videoCorresp->num_rows == 1)
         VALUES('$incomplete','$videoPath','$clickedBtn');";
         $incomplete = $incompleteIP . ".8";
         $votingLine .= "INSERT INTO voting (userip,codvideo,coption) 
-        VALUES('$incomplete,'$videoPath','$clickedBtn');";
+        VALUES('$incomplete','$videoPath','$clickedBtn');";
         $incomplete = $incompleteIP . ".9";
         $votingLine .= "INSERT INTO voting (userip,codvideo,coption) 
         VALUES('$incomplete','$videoPath','$clickedBtn');";
         $incomplete = $incompleteIP . ".10";
         $votingLine .= "INSERT INTO voting (userip,codvideo,coption) 
         VALUES('$incomplete','$videoPath','$clickedBtn');";
-
-
 
         if($conn->multi_query($votingLine) === TRUE)
             echo "<div class='alert alert-success alert-dismissible fade show' role='alert'><button type='button' class='close' data-dismiss='alert' aria-label='Close'>
