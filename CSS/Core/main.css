@@ -13,7 +13,7 @@ body {
     }
 
     a.navbar-brand{
-        margin:auto;
+        margin-left: 6vw;
     }
 }
 
@@ -46,7 +46,7 @@ body {
 /* Header */
 
 header#inicio {
-    background-image: url(../../IMG/BGImages/bg-ego.png);
+    background-image: url(../../IMG/BGImages/bg-ego2.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
