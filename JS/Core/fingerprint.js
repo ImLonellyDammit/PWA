@@ -1082,7 +1082,7 @@ var fp = new Fingerprint({
 var uid = fp.get();
 
 document.getElementById('fingerprint').innerHTML = uid;
-document.getElementById('browser').innerHTML = fingerprint_browser();
+/*document.getElementById('browser').innerHTML = fingerprint_browser();
 document.getElementById('flash').innerHTML = fingerprint_flash();
 document.getElementById('canvas').innerHTML = fingerprint_canvas();
 document.getElementById('connection').innerHTML = fingerprint_connection();
@@ -1101,4 +1101,4 @@ document.getElementById('touch').innerHTML = fingerprint_touch();
 document.getElementById('plugins').innerHTML = fingerprint_plugins();
 document.getElementById('useragent').innerHTML = fingerprint_useragent();
 
-document.getElementById('truebrowser').innerHTML = fingerprint_truebrowser();
+document.getElementById('truebrowser').innerHTML = fingerprint_truebrowser();*/

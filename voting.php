@@ -41,7 +41,7 @@
         </div>
     </div>   
 
-    <p id="fingerprint" style="display:none;"></p>
+    <div id="fingerprint" style="display:none;"></div>
 
     <script src="JS/Core/jquery-3.3.1.min.js"></script>
     <script src="JS/Core/popper.min.js"></script>
