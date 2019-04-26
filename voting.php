@@ -30,7 +30,7 @@
             <a class="navbar-brand text-white" href="#">Reação</a>  
         </nav>
     </header>
-
+    
     <div class="container">
         <div class="row">
             <div class="col-md-9 col-xs-9 mx-auto p-5" id="content-container">
@@ -41,10 +41,13 @@
         </div>
     </div>   
 
+    <p id="fingerprint" style="display:none;"></p>
+
     <script src="JS/Core/jquery-3.3.1.min.js"></script>
     <script src="JS/Core/popper.min.js"></script>
     <script src="JS/Bootstrap Libraries/bootstrap.bundle.min.js"></script>
     <script src="JS/Core/sw-config.js"></script>
+    <script src="JS/Core/fingerprint.js"></script>
     <script src="JS/Core/voting.js"></script>
 </body>
 </html>

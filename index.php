@@ -34,9 +34,9 @@
                         <li>
                             <a class="navbar-item" href="#redes">Redes Sociais</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="navbar-item" href="#filme">Filme</a>
-                        </li>
+                        </li>-->
                    </ul> 
                 </div>
             </div>
@@ -224,14 +224,26 @@
                 <div class="pb-5 pt-5 text-center container-fluid">
                     <h1 class="pb-5">Marketing</h1>  
                     <div class="row justify-content-md-center pb-2">
-                        <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-3" alt="Responsive image">
-                        <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-3" alt="Responsive image">
-                        <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-3" alt="Responsive image">
+                        <div class="col-md-3">
+                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                        </div>
                     </div>
                     <div class="row justify-content-md-center pt-2">
-                        <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-3" alt="Responsive image">
-                        <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-3" alt="Responsive image">
-                        <img src="IMG/img-teste.jpg" class="img-fluid rounded col-md-3" alt="Responsive image">
+                        <div class="col-md-3">
+                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                        </div>
                     </div>
                 </div>
         </section>
@@ -240,14 +252,20 @@
             <div class="pb-5 pt-5 text-center container-fluid text-white">
                 <h1 class="pb-5">Redes Sociais</h1>  
                 <div class="pb-5 pt-5 row justify-content-md-center">
-                    <img src="IMG/Outros/face.jpeg" class="img-fluid rounded col-md-3" alt="Responsive image">
-                    <img src="IMG/Outros/insta.jpeg" class="img-fluid rounded col-md-3" alt="Responsive image">
-                    <img src="IMG/Outros/yout.jpeg" class="img-fluid rounded col-md-3" alt="Responsive image">
+                    <div class="col-md-3">
+                        <img src="IMG/Outros/face.jpeg" class="img-fluid rounded" alt="Responsive image">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="IMG/Outros/insta.jpeg" class="img-fluid rounded" alt="Responsive image">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="IMG/Outros/yout.jpeg" class="img-fluid rounded" alt="Responsive image">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="filme">
+        <!--<section id="filme">
             <div class="pt-5 container-fluid text-center">
                 <h1 class="pb-5">Filme</h1>
                 <div class="row justify-content-md-center" id="video-container">
@@ -267,7 +285,7 @@
                     </div>
                 </div>            
             </div>
-        </section>
+        </section>-->
 
         <footer class="bg-light pt-4 pb-4">
             <div class="container">
@@ -321,8 +339,8 @@
 
                 <br>
                 <h5>Patrocinado:</h5>
-                <div class="row">
-                    <div class="col-lg-3 col-md-2">
+                <div class="row align-content-start">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <img src="IMG/Logos Oficiais/Logo_IEFP.png" class="img-fluid">                      
                     </div>
                 </div>

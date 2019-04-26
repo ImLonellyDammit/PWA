@@ -133,7 +133,8 @@ $(document).ready(function(){
                 $(btnOptCheck)[i].click(function(){
                     // Inserts the voting line in the database
                     $.post("PHP/votingcount.php",{
-                        clickedBtn: $(this).text() // Choosen option by the click of the button
+                        clickedBtn: $(this).text(), // Choosen option by the click of the button
+                        fp: $('#fingerprint').html() // Fingerprint
                     },function(data){
                         // Vote Notification
                         $(contentContainer).append(data);

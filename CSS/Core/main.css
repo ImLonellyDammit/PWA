@@ -58,14 +58,14 @@ header#inicio div.inicio {
     padding-bottom: 30%;  
 }
 
-/*
+
 @media (max-width: 490px)
 {
-    header#inicio div.inicio {
-        font-size: 10px;
+    header#inicio{
+        padding-top: 40%;
     }
 }
-*/
+
 
 /* Equipa */
 
