@@ -34,9 +34,6 @@
                         <li>
                             <a class="navbar-item" href="#redes">Redes Sociais</a>
                         </li>
-                        <!--<li>
-                            <a class="navbar-item" href="#filme">Filme</a>
-                        </li>-->
                    </ul> 
                 </div>
             </div>
@@ -264,28 +261,6 @@
                 </div>
             </div>
         </section>
-
-        <!--<section id="filme">
-            <div class="pt-5 container-fluid text-center">
-                <h1 class="pb-5">Filme</h1>
-                <div class="row justify-content-md-center" id="video-container">
-                    <video class="col-md-12" id="video" controls style="padding:0;" preload="auto">
-                        <source src="Media/v1.mp4" type="video/mp4">
-                    </video>
-                    <div id="ending-container">
-                        <div id="labels-container">
-                        </div>
-                        <form method="post" id="ajax-form" class="d-inline-block" action="PHP/choice.php">
-                            <div class="d-flex">
-                                <label name="opt1" id="opt1" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0%</label>
-                                <button type="submit" id="btn" class="btn btn-primary ml-2 mr-2" style="font-size:2vw;padding:2vw;margin-bottom:7px;"> ENCERRAR VOTACAO</button>
-                                <label name="opt2" id="opt2" class="bg-success rounded" style="font-size:2vw;padding:2vw;">0%</label> 
-                            </div>    
-                        </form>
-                    </div>
-                </div>            
-            </div>
-        </section>-->
 
         <footer class="bg-light pt-4 pb-4">
             <div class="container">
