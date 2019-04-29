@@ -59,10 +59,10 @@ header#inicio div.inicio {
 }
 
 
-@media (max-width: 490px)
+@media (max-width: 765px)
 {
     header#inicio{
-        padding-top: 40%;
+        padding-top: 35%;
     }
 }
 
