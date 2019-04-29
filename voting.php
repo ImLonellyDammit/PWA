@@ -9,7 +9,7 @@
     Images: Tecnico de Multimédia (IEFP), Category: Interactive Film,
     Length: 5 scroll pages + 1 separated">
     <meta name="theme-color" content="#FFFFFF"/>
-    <link rel="icon" href="IMG/icons/icon-144x144.png" sizes="114x114">
+    <link rel="icon" href="IMG/icons/icon_144x144.png" sizes="114x114">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" type="text/css" href="CSS/Core/normalize.css">
     <link rel="stylesheet" type="text/css" href="CSS/Bootstrap Libraries/bootstrap.min.css">
