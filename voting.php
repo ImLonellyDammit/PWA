@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Votação</title>
+    <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="Creator: Marco Ribeiro,
-    Images: Tecnico de Multimédia (IEFP), Category: Interactive Film,
-    Length: 5 scroll pages + 1 separated">
+    <meta name="keywords" content="Reação,Filme,Interativo,IEFP">
+    <meta name="description" content="Site Oficial do Projeto Final do Curso EFA PRO Tecnico de Multimédia">
     <meta name="theme-color" content="#FFFFFF"/>
     <link rel="icon" href="IMG/icons/icon_144x144.png" sizes="114x114">
     <link rel="manifest" href="manifest.json">
