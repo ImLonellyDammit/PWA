@@ -11,9 +11,9 @@
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="1">
         
-        <nav class="navbar navbar-dark navbar-expand-md fixed-top border border-white border-left-0 border-right-0 border-top-0">
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="IMG/icons/logo_reacao.svg" width="40" height="40" class="img-fluid"></a>
+                <a class="navbar-brand" href="#"><img src="IMG/icons/logo_reacao.svg" width="45" height="45" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

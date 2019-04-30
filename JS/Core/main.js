@@ -22,13 +22,13 @@ $(window).scroll(() => {
     if (scroll >= 200 && wwidth > 767)
     {
         //$('.navbar').css("background-image","linear-gradient(to bottom right,transparent,black)");
-        $('.navbar').css("background-color","black");
-        $('.navbar-nav').css("padding","10");
+        //$('.navbar').css("background-color","#1a1a1a");
+        $('.navbar-nav').css("padding","15");
     }
     else
     {
         $('.navbar').css("background-image","none");
-        $('.navbar-nav').css("padding","20");
+        $('.navbar-nav').css("padding","25");
     }
 });
 
