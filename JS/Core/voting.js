@@ -12,41 +12,45 @@ $(document).ready(function(){
     let sourceSave;
    
     // When we close the votes
-    $(form).submit(function(){
+    $(form).submit(function(event){
+        event.preventDefault(); // Prevents the action redirect
+        if(($("#opt1").text() != "0%") || ($("#opt2").text() != "0%")) // Makes impossible to close the votation without any votes counted
+        {
+            // Reset video properties
+            $(endContainer).css("display","none");
+            $(Video).attr("controls","");
+            
+            var formData = $(form).serialize();
 
-        // Reset video properties
-        $(endContainer).css("display","none");
-        $(Video).attr("controls","");
-        
-        event.preventDefault();
-        var formData = $(form).serialize();
-
-        $.ajax({
-           type: 'POST',
-           url:$(form).attr('action'),
-           data: {
-               formData,
-               aVideo: $("#video source").attr("src"),
-               option1text: $("#opt1").text(),
-               option2text: $("#opt2").text()
-            }
-        })
-        .done(function(response){   
-            // Change the video 
-            $(Video).html(response);
-            $(Video)[0].load(); 
-            // Update the current video status on the database
-            $.get("PHP/submitsettings.php");
-        })
-        .fail(function(data) {      
-            alert("An Error Occured!");
-        });
+            $.ajax({
+            type: 'POST',
+            url:$(form).attr('action'),
+            data: {
+                formData,
+                aVideo: $("#video source").attr("src"),
+                option1text: $("#opt1").text(),
+                option2text: $("#opt2").text()
+                }
+            })
+            .done(function(response){   
+                // Change the video 
+                $(Video).html(response);
+                $(Video)[0].load(); 
+                // Update the current video status on the database
+                $.get("PHP/submitsettings.php");
+            })
+            .fail(function(data) {      
+                alert("An Error Occured!");
+            });
+        }
+        else
+            alert("There's no votes to count"); // Error message to the client
     });
 
     // When the video ends
     $(Video).on('ended',function(){
-
-        let source = $("#video source").attr("src");       
+  
+        let source = $("#video source").attr("src");     
         if(source != "Media/v2.mp4") // Condição que exclui os videos finais
         {        
             $(endContainer).css("display","block");
@@ -103,11 +107,11 @@ $(document).ready(function(){
             },2000)
 
         ).then(function(){
+            $(Video).removeAttr("controls");
             $("#labels-container").html(result1);
             // Updates the value of both options every 2 seconds  
             setInterval(function(){$('#opt1').text(result3 + "%");$('#opt2').text(result4 + "%");},2000);
         });
-        
     });
 
     // Voting Content -> voting.php - APP PWA
@@ -134,7 +138,6 @@ $(document).ready(function(){
                     // Inserts the voting line in the database
                     $.post("PHP/votingcount.php",{
                         clickedBtn: $(this).text(), // Choosen option by the click of the button
-                        //fp: $('#fingerprint').html()
                         fp: uid // Fingerprint
                     },function(data){
                         // Vote Notification
