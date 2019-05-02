@@ -65,7 +65,7 @@
                             <div  class="container ">
                                 <div class="container">
                                         <div class="row">                      
-                                            <div class="card col-md-3" >
+                                            <div class="card col-lg-3 col-md-6" >
                                                 <img class="card-img-top card-gif" src="IMG/alexandre.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Alexandre Pereira</h4>
@@ -73,7 +73,7 @@
                                                 </div>
                                             </div>
                             
-                                            <div class="card col-md-3">
+                                            <div class="card col-lg-3 col-md-6">
                                                 <img class="card-img-top card-gif" src="IMG/ana.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Ana Rodrigues</h4>
@@ -81,7 +81,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="card col-md-3" >
+                                            <div class="card col-lg-3 col-md-6" >
                                                 <img class="card-img-top card-gif" src="IMG/bruno.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Bruno Ferreira</h4>
@@ -89,7 +89,7 @@
                                                 </div>
                                             </div>
                             
-                                            <div class="card col-md-3" >
+                                            <div class="card col-lg-3 col-md-6" >
                                                 <img class="card-img-top card-gif" src="IMG/caroline.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Caroline Susini</h4>
@@ -105,7 +105,7 @@
                             <div  class="container">      
                                 <div class=" container">       
                                     <div class="row">                               
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6">
                                             <img class="card-img-top card-gif" src="IMG/cris.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Cristiano Covas</h4>
@@ -113,7 +113,7 @@
                                             </div>
                                         </div> 
 
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6">
                                             <img class="card-img-top card-gif" src="IMG/carina.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Carina André</h4>
@@ -121,7 +121,7 @@
                                             </div>
                                         </div>
                     
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6" >
                                             <img class="card-img-top card-gif" src="IMG/isabel.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Isabel Silva</h4>
@@ -129,7 +129,7 @@
                                             </div>
                                         </div>
                         
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6" >
                                             <img class="card-img-top card-gif" src="IMG/marco.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Marco Ribeiro</h4>
@@ -146,7 +146,7 @@
                                 <div class=" container">
                                     
                                     <div class="row">                      
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6" >
                                             <img class="card-img-top card-gif" src="IMG/nelson.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Nelson Mota</h4>
@@ -154,7 +154,7 @@
                                             </div>
                                         </div> 
                     
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6" >
                                             <img class="card-img-top card-gif" src="IMG/silvia.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Sylvie Neves</h4>
@@ -162,7 +162,7 @@
                                             </div>
                                         </div>
                     
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6" >
                                             <img class="card-img-top card-gif" src="IMG/vanda.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Vanda Laborim</h4>
@@ -170,7 +170,7 @@
                                             </div>
                                         </div>
                     
-                                        <div class="card col-md-3" >
+                                        <div class="card col-lg-3 col-md-6" >
                                             <img class="card-img-top card-gif" src="IMG/vera.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Vera Correia</h4>
