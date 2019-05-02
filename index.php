@@ -220,7 +220,7 @@
         <section id="marketing" class="bg-white">
                 <div class="pb-5 pt-5 text-center container-fluid">
                     <h1 class="pb-5">Marketing</h1>  
-                    <div class="row justify-content-md-center pb-2">
+                    <div class="row justify-content-md-center pb-2 img-effect">
                         <div class="col-md-3">
                             <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
@@ -231,7 +231,7 @@
                             <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
                     </div>
-                    <div class="row justify-content-md-center pt-2">
+                    <div class="row justify-content-md-center pt-2 img-effect">
                         <div class="col-md-3">
                             <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>

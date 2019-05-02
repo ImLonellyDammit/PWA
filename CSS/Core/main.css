@@ -130,6 +130,18 @@ section#making {
 }
 
 
+.img-effect div{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    transition: filter 0.2s linear;
+}
+
+.img-effect div:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+
 /* Redes Sociais */
 
 section#redes {
@@ -186,7 +198,7 @@ section#redes {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.95);
+    background-color: rgba(0,0,0,0.40);
     transition: display 0.3s;
     z-index: 1000;
     display:none;
