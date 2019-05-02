@@ -49,7 +49,6 @@ $(document).ready(function(){
 
     // When the video ends
     $(Video).on('ended',function(){
-  
         let source = $("#video source").attr("src");     
         if(source != "Media/v2.mp4") // Condição que exclui os videos finais
         {        
@@ -107,7 +106,7 @@ $(document).ready(function(){
             },2000)
 
         ).then(function(){
-            $(Video).removeAttr("controls");
+            $(Video).removeAttr("controls"); // Remove video controls when a video ends
             $("#labels-container").html(result1);
             // Updates the value of both options every 2 seconds  
             setInterval(function(){$('#opt1').text(result3 + "%");$('#opt2').text(result4 + "%");},2000);
@@ -151,3 +150,5 @@ $(document).ready(function(){
     });
 
 });
+
+// U
