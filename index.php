@@ -69,7 +69,7 @@
                                                 <img class="card-img-top card-gif" src="IMG/alexandre.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Alexandre Pereira</h4>
-                                                    <p class="card-text">Focado no 3D, idealiza seguir carreira nessa area revelando caracteristicas unicas e especiais.</p>
+                                                    <p class="card-text">Focado no 3D, idealiza seguir carreira nessa area revelando características únicas e especiais.</p>
                                                 </div>
                                             </div>
                             
@@ -77,7 +77,7 @@
                                                 <img class="card-img-top card-gif" src="IMG/ana.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Ana Rodrigues</h4>
-                                                    <p class="card-text">Criativa e dinamica consegue gerir com empanho varias areas da multimedia.o</p>
+                                                    <p class="card-text">Criativa e dinâmica consegue gerir com empenho várias áreas da multimedia</p>
                                                 </div>
                                             </div>
 
@@ -85,7 +85,7 @@
                                                 <img class="card-img-top card-gif" src="IMG/bruno.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Bruno Ferreira</h4>
-                                                    <p class="card-text">Ponderado e bom comunicador e criativo,idealiza fazer do webdesigner a sua arte.</p>
+                                                    <p class="card-text">Ponderado, bom comunicador e criativo, idealiza fazer do webdesign a sua arte.</p>
                                                 </div>
                                             </div>
                             
@@ -93,7 +93,7 @@
                                                 <img class="card-img-top card-gif" src="IMG/caroline.jpg" alt="img-port" style="width:100%;">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Caroline Susini</h4>
-                                                    <p class="card-text">Com o sonho de conseguir integrar na 7ª arte ( cinema) Principal impulsionadora para a execusão do filme.</p>
+                                                    <p class="card-text">Com o sonho de conseguir integrar na 7ª arte ( cinema) Principal impulsionadora para a execução do filme.</p>
                                                 </div>
                                             </div>
                                         </div>                    
@@ -109,7 +109,7 @@
                                             <img class="card-img-top card-gif" src="IMG/cris.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Cristiano Covas</h4>
-                                                <p class="card-text">Bem disposto revelou um dom no 3D que até então era lhe desconhecido, amante de arte e muito imaginativo</p>
+                                                <p class="card-text">Bem disposto revelou um dom no 3D que até então era-lhe desconhecido, amante de arte e muito imaginativo</p>
                                             </div>
                                         </div> 
 
@@ -117,7 +117,7 @@
                                             <img class="card-img-top card-gif" src="IMG/carina.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Carina André</h4>
-                                                <p class="card-text">Espontanea e real, empanha-se com unhas e dentes, adquiriu novos gostos e novas aptidões para area</p>
+                                                <p class="card-text">Espontânea e real, empenha-se com unhas e dentes, adquiriu novos gostos e novas aptidões para área</p>
                                             </div>
                                         </div>
                     
@@ -125,7 +125,7 @@
                                             <img class="card-img-top card-gif" src="IMG/isabel.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Isabel Silva</h4>
-                                                <p class="card-text">Calma e ponderada, focada em adquerir conhecimentos numa area totalmente nova, dotada de grande talento </p>
+                                                <p class="card-text">Calma e ponderada, focada em adquirir conhecimentos numa área totalmente nova, dotada de grande talento </p>
                                             </div>
                                         </div>
                         
@@ -133,7 +133,7 @@
                                             <img class="card-img-top card-gif" src="IMG/marco.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Marco Ribeiro</h4>
-                                                <p class="card-text">Programador nato, poderia facilmente fazer dessa area uma careira. O lado das artes tambem o faz ponderar a sua escolha.</p>
+                                                <p class="card-text">Programador nato, poderia facilmente fazer dessa área uma carreira. O lado das artes também o faz ponderar a sua escolha.</p>
                                             </div>
                                         </div>
                                     </div>                    
@@ -150,7 +150,7 @@
                                             <img class="card-img-top card-gif" src="IMG/nelson.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Nelson Mota</h4>
-                                                <p class="card-text">Artista em franca expanção, com um dom para o desenho , para ele, o lapis é uma extensão da mão.</p>
+                                                <p class="card-text">Artista em franca expansão, com um dom para o desenho, para ele, o lápis é uma extensão da mão.</p>
                                             </div>
                                         </div> 
                     
@@ -158,7 +158,7 @@
                                             <img class="card-img-top card-gif" src="IMG/silvia.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Sylvie Neves</h4>
-                                                <p class="card-text">Com um gosto especial pela fotografia, viu na edição de videos uma nova paixão.</p>
+                                                <p class="card-text">Com um gosto especial pela fotografia, viu na edição de vídeos uma nova paixão.</p>
                                             </div>
                                         </div>
                     
@@ -166,7 +166,7 @@
                                             <img class="card-img-top card-gif" src="IMG/vanda.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Vanda Laborim</h4>
-                                                <p class="card-text">Muito comunicativa e sempre alegre,</p>
+                                                <p class="card-text">Muito comunicativa e sempre alegre</p>
                                             </div>
                                         </div>
                     
@@ -174,7 +174,7 @@
                                             <img class="card-img-top card-gif" src="IMG/vera.jpg" alt="img-port" style="width:100%;">
                                             <div class="card-body">
                                                 <h4 class="card-title">Vera Correia</h4>
-                                                <p class="card-text">Nova na area da multimedia e sem qualquer tipo de conhecimento, descobriu uma nova paixão no 3D</p>
+                                                <p class="card-text">Nova na área da multimédia e sem qualquer tipo de conhecimento, descobriu uma nova paixão no 3D</p>
                                             </div>
                                         </div> 
                                     </div>                    
@@ -266,17 +266,17 @@
             <div class="container">
                 <ul class="list-unstyled list-inline text-right">
                     <li class="list-inline-item">
-                        <a class="btn-floating mx-1" href="https://www.facebook.com/reacao.pro.1" target="_blank" type="button" role="button" style="text-decoration: none;">
+                        <a class="btn-floating mx-1 f-color" href="https://www.facebook.com/reacao.pro.1" target="_blank" type="button" role="button" style="text-decoration: none;">
                             <i class="fab fa-2x fa-facebook-square"> </i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating mx-1" href="#" target="_blank" type="button" role="button" style="text-decoration: none;">
+                        <a class="btn-floating mx-1  y-color" href="https://www.youtube.com/channel/UC-pzQ8cq0d7dNQCuNDLqhfg" target="_blank" type="button" role="button" style="text-decoration: none;">
                             <i class="fab fa-2x fa-youtube"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating mx-1" href="https://www.instagram.com/reacao_multimedia" target="_blank" type="button" role="button" style="text-decoration: none;"> 
+                        <a class="btn-floating mx-1 i-color" href="https://www.instagram.com/reacao_multimedia" target="_blank" type="button" role="button" style="text-decoration: none;"> 
                             <i class="fab fa-2x fa-instagram"> </i>
                         </a>
                     </li>
