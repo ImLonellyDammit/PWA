@@ -199,19 +199,8 @@
             <div class="pb-5 pt-5 text-center container-fluid text-white">
                 <h1 class="pb-5">Making-Off</h1>  
                 <div class="row justify-content-md-center align-content-center pb-3">
-                    <div class="embed-responsive embed-responsive-16by9 col-md-4 ml-2 mr-2">
-                        <iframe class="embed-responsive-item pb-2" src="https://www.youtube.com/embed/QiFBgtgUtfw"></iframe>
-                    </div>
-                    <div class="embed-responsive embed-responsive-16by9 col-md-4 ml-2 mr-2">
-                        <iframe class="embed-responsive-item pb-2" src="https://www.youtube.com/embed/QiFBgtgUtfw"></iframe>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center pb-3">
-                    <div class="embed-responsive embed-responsive-16by9 col-md-4 ml-2 mr-2">
-                        <iframe class="embed-responsive-item pb-2" src="https://www.youtube.com/embed/QiFBgtgUtfw"></iframe>
-                    </div>
-                    <div class="embed-responsive embed-responsive-16by9 col-md-4 ml-2 mr-2">
-                        <iframe class="embed-responsive-item pb-2" src="https://www.youtube.com/embed/QiFBgtgUtfw"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9 col-md-11 ml-2 mr-2">
+                        <iframe class="embed-responsive-item pb-2" src="https://www.youtube.com/embed/iaEi7Mxith0"></iframe>
                     </div>
                 </div>
             </div>
