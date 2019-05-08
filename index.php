@@ -275,13 +275,16 @@
                 <h5>Parceiros Externos:</h5>
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-2 col-md-2 mb-4">
-                        <img src="IMG/Logos Oficiais/bispo_500-250px.png" class="img-fluid">                      
+                        <a href="http://www.restauranteobispo.com/" target="_blank"><img src="IMG/Logos Oficiais/bispo_500-250px.png" class="img-fluid"></a>                    
                     </div>
                     <div class="col-lg-2 col-md-2 mb-4">
-                        <img src="IMG/Logos Oficiais/cppme 500-250px.png" class="img-fluid">                      
+                        <a href="https://www.cppme.pt/" target="_blank"><img src="IMG/Logos Oficiais/cppme 500-250px.png" class="img-fluid"></a>                
                     </div>
                     <div class="col-lg-2 col-md-2 mb-4">
-                        <img src="IMG/Logos Oficiais/villa_500.png" class="img-fluid">
+                        <a href="https://pt-pt.facebook.com/villatres.pt/" target="_blank"><img src="IMG/Logos Oficiais/villa_500.png" class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 mb-4">
+                        <a href="http://www.ecranvia.pt/" target="_blank"><img src="IMG/Logos Oficiais/Ecranvia.png" class="img-fluid"></a>
                     </div>
                 </div>
 
