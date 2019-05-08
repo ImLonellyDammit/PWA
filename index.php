@@ -222,24 +222,24 @@
                     <h1 class="pb-5">Marketing</h1>  
                     <div class="row justify-content-md-center pb-2 img-effect">
                         <div class="col-md-3">
-                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                            <img src="IMG/Marketing/v140.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
                         <div class="col-md-3">
-                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                            <img src="IMG/Marketing/v141.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
                         <div class="col-md-3">
-                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                            <img src="IMG/Marketing/v142.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
                     </div>
                     <div class="row justify-content-md-center pt-2 img-effect">
                         <div class="col-md-3">
-                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                            <img src="IMG/Marketing/v143.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
                         <div class="col-md-3">
-                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                            <img src="IMG/Marketing/v144.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
                         <div class="col-md-3">
-                            <img src="IMG/img-teste.jpg" class="img-fluid rounded" alt="Responsive image">
+                            <img src="IMG/Marketing/v145.jpg" class="img-fluid rounded" alt="Responsive image">
                         </div>
                     </div>
                 </div>
