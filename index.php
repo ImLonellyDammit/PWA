@@ -322,9 +322,7 @@
 
             </div>
 
-            <div class="text-center py-3">Todos os direitos reservados - © 2019 Copyright:
-                    <a href="https://mdbootstrap.com/education/bootstrap/"> Reacao</a>
-            </div>
+            <div class="text-center py-3">Todos os direitos reservados - © 2019 Copyright: Reacao</div>
         </footer>
 
         <script src="JS/Core/jquery-3.3.1.min.js"></script>
